@@ -17,7 +17,7 @@ fi
 
 # install packages
         echo "install packages..."
-        sudo apt install python3-pip python3-venv git nginx -y >> /dev/null 2>&1
+        sudo apt install net-tools python3-pip python3-venv git nginx -y >> /dev/null 2>&1
 
 # clone your repository
         echo "Clone your repository..."
