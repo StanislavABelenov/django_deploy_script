@@ -3,7 +3,7 @@ Small script for the django project deploy in clear server
 
 ## Quick start
 ```sh
-wget https://github.com/kosty1301/django_deploy_script/blob/main/django_deploy.sh
+wget https://raw.githubusercontent.com/kosty1301/django_deploy_script/main/django_deploy.sh
 ```
 ```sh
 sudo chmod +x django_deploy.sh
