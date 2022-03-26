@@ -13,3 +13,5 @@ sudo chmod +x django_deploy.sh
 ```
 ### Use this script only on a clean server otherwise you may lose your nginx settings!
 * the old nginx configuration will be moved to the home directory
+## Support
+* Ubuntu 18.04 LTS (tested)
