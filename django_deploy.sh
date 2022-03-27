@@ -9,7 +9,7 @@ fi
 if [$whoami eq "root"];then
  echo "Do not run this script with root privileges"
   exit 1
-  fi
+   fi
 
 # update system
         echo "System update..."
