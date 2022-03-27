@@ -5,6 +5,9 @@ if [ -z "$1" ]; then
         echo "Please start script like this - $0 https://github.com/username/project_name.git"
 exit 1
 fi
+if [$whoami eq "root"];then
+ echo "Do not run this script with root privileges"
+  exit 1
 
 # update system
         echo "System update..."
